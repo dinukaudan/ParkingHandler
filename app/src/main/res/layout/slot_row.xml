@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/slot_number"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/slot_avail"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</TableRow>

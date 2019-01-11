@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdd"
+    tools:context="com.example.tharindu_prasad.parkinghandler.slots">
+
+    <TableLayout
+        android:id="@+id/slot_table"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:stretchColumns="0,1">
+    </TableLayout>
+
+</RelativeLayout>

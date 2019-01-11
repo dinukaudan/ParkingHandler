@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/nav_camera"
+            android:iconTint="@color/c9"
+
+            android:icon="@drawable/ic_action_name2"
+            android:title="profile" />
+
+
+
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:iconTint="@color/c9"
+            android:icon="@drawable/ic_action_name"
+            android:title="Parking Slots" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:iconTint="@color/c9"
+            android:icon="@drawable/ic_action_name3"
+            android:title="Extend Timer and Marker" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_action_name5"
+            android:iconTint="@color/c9"
+            android:title="Pay Hands" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:iconTint="@color/c9"
+                android:icon="@drawable/ic_action_name6"
+                android:title="Booking" />
+            <item
+                android:id="@+id/nav_send"
+                android:iconTint="@color/c9"
+                android:icon="@drawable/ic_action_name7"
+                android:title="Cancel booking" />
+        </menu>
+    </item>
+
+</menu>

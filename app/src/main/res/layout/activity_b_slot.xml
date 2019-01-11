@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgdd"
+    android:layout_height="match_parent"
+    tools:context="com.example.tharindu_prasad.parkinghandler.b_slot">
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+
+            android:text="       Slot Booking"
+            android:textColor="@color/c4"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="    Enter the slot id"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="center"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="391dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="    Enter the slot id"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <EditText
+            android:id="@+id/uid"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="40dp"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="391dp" />
+
+        <Button
+            android:id="@+id/bn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b1"
+            android:text="Click to occupied the slot"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="451dp" />
+
+
+        <Button
+            android:id="@+id/bn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b1"
+            android:text="Click to update resrvation"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="451dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg" />
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

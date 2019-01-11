@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgdd"
+    android:layout_height="match_parent"
+    tools:context="com.example.tharindu_prasad.parkinghandler.cancelbooking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+
+                android:text="       cansel Booking"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="99dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Enter the slot id"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="187dp"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="391dp" />
+
+            <Button
+                android:id="@+id/bn"
+                android:background="@drawable/b1"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:text="Click to cancel booking"
+                tools:layout_editor_absoluteX="155dp"
+                tools:layout_editor_absoluteY="451dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+
+                android:text="      confirm parking"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="295dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Enter the slot id"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="355dp" />
+
+            <EditText
+                android:id="@+id/id1"
+                android:inputType="number"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="108dp" />
+
+            <Button
+                android:id="@+id/bn1"
+                android:layout_width="232dp"
+                android:background="@drawable/b1"
+                android:layout_height="61dp"
+                android:text="Click to confirm parking"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="186dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
